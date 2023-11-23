@@ -32,9 +32,9 @@ Resources:
           yum update -y
           yum install git -y
           yum install python3-pip -y
-          pip install -r requirements.txt
           git clone https://github.com/bluehackrafestefano/MyFlaskProj1.git app
           cd app
+          pip install -r requirements.txt
           python3 app-with-sqlite.py
 
 Outputs:
