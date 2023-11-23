@@ -35,7 +35,7 @@ Resources:
           pip install -r requirements.txt
           git clone https://github.com/bluehackrafestefano/MyFlaskProj1.git app
           cd app
-          sudo python3 app-with-sqlite.py
+          python3 app-with-sqlite.py
 
 Outputs:
   WebsiteURL:
